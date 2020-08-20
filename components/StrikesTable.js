@@ -116,7 +116,7 @@ const StrikesTable = () => (
       .table > table > thead > tr > th {
         color: rgba(0, 0, 0, 0.85);
         font-weight: 500;
-        text-align: left;
+        text-align: center;
         background: #fafafa;
         border-bottom: 1px solid #d0cfcf;
         transition: background 0.3s ease;

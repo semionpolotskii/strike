@@ -1,24 +1,25 @@
 import React from "react";
-import Header from "../components/Header";
+import PageTemplate from "../components/PageTemplate";
 import Chronologic from "../components/Chronologic";
 import ChronologicCard from "../components/ChronologicCard";
 import CompanyLinksList from "../components/CompaniesRoster";
-import StrikesTable from '../components/StrikesTable'
+import StrikesTable from "../components/StrikesTable";
 
 const Home = () => (
   <>
-    <Header />
-    {/* <div>Ссылки для помощи</div>
+    <PageTemplate>
+      {/* <div>Ссылки для помощи</div>
     <div>Список всех инициатив</div> */}
-    
-    <Chronologic>
-      <ChronologicCard title="БелАЗ" href="/belaz" />
-      <ChronologicCard title="БелАЗ" href="/belaz" />
-      <ChronologicCard title="БелАЗ" href="/belaz" />
-      <ChronologicCard title="БелАЗ" href="/belaz" />
-    </Chronologic>
-    {/* <CompanyLinksList /> */}
-    <StrikesTable />
+
+      <Chronologic>
+        <ChronologicCard title="БелАЗ" href="/belaz" />
+        <ChronologicCard title="БелАЗ" href="/belaz" />
+        <ChronologicCard title="БелАЗ" href="/belaz" />
+        <ChronologicCard title="БелАЗ" href="/belaz" />
+      </Chronologic>
+      {/* <CompanyLinksList /> */}
+      <StrikesTable />
+    </PageTemplate>
 
     <style jsx>{`
       a {

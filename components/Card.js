@@ -12,7 +12,7 @@ const Card = ({ title, children }) => (
 
         box-sizing: border-box;
         color: rgba(0, 0, 0, 0.65);
-        font-size: 14px;
+        font-size: 18px;
         font-variant: tabular-nums;
         line-height: 1.5715;
         list-style: none;
