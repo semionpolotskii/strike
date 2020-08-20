@@ -1,35 +1,24 @@
-import React from 'react'
-import Head from 'next/head'
+import React from "react";
+import Header from "../components/Header";
+import Chronologic from "../components/Chronologic";
+import ChronologicCard from "../components/ChronologicCard";
+import CompanyLinksList from "../components/CompaniesRoster";
 
 const Home = () => (
-  <div>
-    <h1>Next.js on the [JAMstack](https://jamstack.org)</h1>
-
-    <h3>Hooray 🎉 - you've built this with <a href="https://nextjs.org">Next.js</a>!</h3>
+  <>
+    <Header />
+    {/* <div>Ссылки для помощи</div>
+    <div>Список всех инициатив</div> */}
+    
+    <Chronologic>
+      <ChronologicCard title="БелАЗ" href="/belaz" />
+      <ChronologicCard title="БелАЗ" href="/belaz" />
+      <ChronologicCard title="БелАЗ" href="/belaz" />
+      <ChronologicCard title="БелАЗ" href="/belaz" />
+    </Chronologic>
+    <CompanyLinksList />
 
     <style jsx>{`
-      :global(html,body) {
-        margin: 0;
-        padding: 0;
-        height: 100%;
-      }
-
-      :global(body) {
-        font-size: calc(10px + 1vmin);
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
-          'Droid Sans', 'Helvetica Neue', sans-serif;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        background-color: #282c34;
-        color: white;
-      }
-
       a {
         color: pink;
         text-decoration: none;
@@ -39,7 +28,7 @@ const Home = () => (
         padding: 0 32px;
       }
     `}</style>
-  </div>
-)
+  </>
+);
 
-export default Home
+export default Home;
