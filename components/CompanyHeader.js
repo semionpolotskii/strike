@@ -77,15 +77,15 @@ const CompanyLinksList = () => (
       }
 
       .link {
-        color: #1890ff;
+        color: #ff4d4f;
         text-decoration: none;
-        border-bottom: 1px solid #1890ff;
+        border-bottom: 1px solid #ff4d4f;
         transition: color 0.25s ease-out, border-bottom-color 0.25s ease-out;
       }
 
       .link:hover {
-        color: #ff4d4f;
-        border-bottom-color: #ff4d4f;
+        color: #801a1b;
+        border-bottom-color: #801a1b;
         -webkit-transition: none;
         transition: none;
       }

@@ -5,16 +5,18 @@ import Chronologic from "../components/Chronologic";
 import ChronologicCard from "../components/ChronologicCard";
 import CompanyLinksList from "../components/CompaniesRoster";
 import StrikesTable from "../components/StrikesTable";
+import StrikesInfoCards from "../components/StrikesInfoCards";
 
 const Home = () => (
   <>
     <PageTemplate>
       <div className="wrapper">
-        <div className="cover-img"/>
+        <div className="cover-img" />
         {/* <div>Ссылки для помощи</div>
     <div>Список всех инициатив</div> */}
         <HomePageBanner />
       </div>
+      <StrikesInfoCards />
       <Chronologic>
         <ChronologicCard title="БелАЗ" href="/belaz" />
         <ChronologicCard title="БелАЗ" href="/belaz" />
@@ -30,11 +32,13 @@ const Home = () => (
         position: relative;
         height: 500px;
       }
+
       .cover-img {
         position: absolute;
         width: 100%;
         height: 500px;
-        background: url("https://ic.pics.livejournal.com/maxim_nm/51556845/2918070/2918070_original.jpg") no-repeat center center fixed;
+        background: url("https://ic.pics.livejournal.com/maxim_nm/51556845/2918070/2918070_original.jpg")
+          no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;

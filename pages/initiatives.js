@@ -26,9 +26,9 @@ const Initiatives = () => {
       ></iframe> */}
       <PageTemplate>
         <div className="wrapper">
-          <h3 style={{ textAlign: "center" }}>
-            Волонтерские программы, инициативы и фонды для помощи пострадавшим
-            во время митингов, бастующих и поддержки гражданского движения
+          <h3 className="title">
+            <span>Волонтерские программы, инициативы и фонды для помощи пострадавшим
+            во время митингов, бастующим и поддержки гражданского движения</span>
           </h3>
           <h5 style={{ textAlign: 'center'}}>
             Информация взята с сайта{" "}
@@ -484,10 +484,26 @@ const Initiatives = () => {
           flex-direction: column;
         }
 
+      .title{
+        text-align: center;
+        font-size: 27px;
+        background-color: #ff4d4f;
+        color: #fff;
+        padding: 12px;
+      }
+
         .wrapper {
           width: 700px;
           margin: 0 auto;
           font-weight: 600;
+        }
+
+        .wrapper a {
+          color: #ff4d4f;
+        }
+
+        .wrapper a:hover {
+          color: #801a1b;
         }
 
         .wrapper ul > li {
