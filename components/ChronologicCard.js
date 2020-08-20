@@ -5,7 +5,9 @@ const ChronologicCard = ({ title, href }) => (
   <>
     <div className="card">
       <Link href={href}>
-        <a>{title}</a>
+        <a>
+          <span className="red-on-white">{title}</span>
+        </a>
       </Link>
     </div>
     <style jsx>{`
@@ -23,7 +25,7 @@ const ChronologicCard = ({ title, href }) => (
         position: relative;
         background: #fff;
         border-radius: 2px;
-        width: 200px;
+        width: 24%;
         height: 300px;
 
         background-image: linear-gradient(
@@ -59,6 +61,12 @@ const ChronologicCard = ({ title, href }) => (
         display: flex;
         align-items: center;
         justify-content: center;
+      }
+      .red-on-white {
+        background-color: #fff;
+        color: #ff4d4f;
+        padding: 0 12px;
+        font-weight: bold;
       }
     `}</style>
   </>

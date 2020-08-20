@@ -2,7 +2,7 @@ import React from "react";
 
 const StrikesTable = () => (
   <>
-    <h1 className="title">Участники</h1>
+    <h1 className="title"><span className="white-on-red">Участники</span></h1>
     <div className="table">
       <table>
         <thead>
@@ -99,9 +99,17 @@ const StrikesTable = () => (
     <style jsx>{`
       .title {
         text-align: center;
+        font-size: 45px;
+      }
+      .white-on-red {
+        background-color: #ff4d4f;
+        color: #fff;
+        padding: 0 12px;
       }
       .table {
         padding: 24px;
+        width: 100%;
+        overflow: auto;
       }
       .table > table {
         width: 100%;
