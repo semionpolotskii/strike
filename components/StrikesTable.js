@@ -125,13 +125,14 @@ const StrikesTable = () => (
         color: rgba(0, 0, 0, 0.85);
         font-weight: 500;
         text-align: center;
-        background: #fafafa;
         border-bottom: 1px solid #d0cfcf;
         transition: background 0.3s ease;
         border-right: 1px solid #d0cfcf;
         position: relative;
         padding: 16px;
         font-weight: bold;
+        background-color: #ff4d4f;
+        color: #fff;
       }
 
       .table>table>tbody>tr>td {
