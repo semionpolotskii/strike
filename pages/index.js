@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Chronologic from "../components/Chronologic";
 import ChronologicCard from "../components/ChronologicCard";
 import CompanyLinksList from "../components/CompaniesRoster";
+import StrikesTable from '../components/StrikesTable'
 
 const Home = () => (
   <>
@@ -16,7 +17,8 @@ const Home = () => (
       <ChronologicCard title="БелАЗ" href="/belaz" />
       <ChronologicCard title="БелАЗ" href="/belaz" />
     </Chronologic>
-    <CompanyLinksList />
+    {/* <CompanyLinksList /> */}
+    <StrikesTable />
 
     <style jsx>{`
       a {
