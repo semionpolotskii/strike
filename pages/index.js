@@ -54,6 +54,12 @@ const Home = () => (
       .content {
         padding: 0 32px;
       }
+
+      @supports (-webkit-touch-callout: none) {
+        .cover-img {
+          background-attachment: scroll; 
+        }
+      }
     `}</style>
   </>
 );
