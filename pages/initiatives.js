@@ -2,6 +2,7 @@ import React from "react";
 
 import PageTemplate from "../components/PageTemplate";
 import Card from "../components/Card";
+import BlockTitle from '../components/BlockTitle'
 // <div className="wrapper">
 //   <h1>
 //     Инициативы для тех, кто бастует, потерял или меняет работу в связи с
@@ -530,6 +531,7 @@ const Initiatives = () => {
 
           .title {
             width: 100%;
+            font-size: 20px;
           }
         }
       `}</style>

@@ -1,10 +1,9 @@
 import React from "react";
+import BlockTitle from "./BlockTitle";
 
 const StrikesTable = () => (
   <>
-    <h1 className="title">
-      <span className="white-on-red">Участники</span>
-    </h1>
+    <BlockTitle withContact>Вас поддерживают</BlockTitle>
     <div className="table">
       <table>
         <thead>

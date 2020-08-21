@@ -83,6 +83,9 @@ const StrikesInfoCards = () => (
           width: 100%;
           margin: 0;
         }
+        .card-title {
+          padding: 12px;
+        }
       }
     `}</style>
   </>

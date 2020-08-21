@@ -12,13 +12,8 @@ const Img = ({ src, ...props }) => (
         </div>
         <ul className="main-menu">
           <li>
-            <a className="menu-link" href="#">
+            <a className="menu-link" href="/#chronologic">
               Участники забастовок
-            </a>
-          </li>
-          <li>
-            <a className="menu-link" href="#">
-              Волонтерам
             </a>
           </li>
           <li>
@@ -27,6 +22,11 @@ const Img = ({ src, ...props }) => (
                 Инициативы и фонды
               </a>
             </Link>
+          </li>
+          <li>
+            <a className="menu-link" href="https://t.me/strikebyy_bot" target="_blank">
+              Написать нам 
+            </a>
           </li>
         </ul>
       </div>

@@ -71,6 +71,7 @@ const ChronologicCard = ({ title, href }) => (
       @media (max-width: 768px) {
         .card {
           width: 100%;
+          height: 150px;
           margin: 0;
         }
       }
