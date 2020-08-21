@@ -69,7 +69,7 @@ const HomePageBanner = () => (
       }
       @media (max-width: 768px) {
         .heading h1 {
-          margin-top: 50px;
+          margin-top: 150px;
         }
       }
     `}</style>
