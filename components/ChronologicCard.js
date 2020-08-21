@@ -68,6 +68,12 @@ const ChronologicCard = ({ title, href }) => (
         padding: 0 12px;
         font-weight: bold;
       }
+      @media (max-width: 768px) {
+        .card {
+          width: 100%;
+          margin: 0;
+        }
+      }
     `}</style>
   </>
 );

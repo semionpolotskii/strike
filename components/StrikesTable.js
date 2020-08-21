@@ -2,7 +2,9 @@ import React from "react";
 
 const StrikesTable = () => (
   <>
-    <h1 className="title"><span className="white-on-red">Участники</span></h1>
+    <h1 className="title">
+      <span className="white-on-red">Участники</span>
+    </h1>
     <div className="table">
       <table>
         <thead>
@@ -135,16 +137,29 @@ const StrikesTable = () => (
         color: #fff;
       }
 
-      .table>table>tbody>tr>td {
+      .table > table > tbody > tr > td {
         border-right: 1px solid #d0cfcf;
         position: relative;
         padding: 16px;
         border-bottom: 1px solid #d0cfcf;
       }
 
-      .table>table>tbody>tr:hover>td {
+      .table > table > tbody > tr:hover > td {
         background: #fafafa;
-    }
+      }
+      @media (max-width: 768px) {
+        .table {
+          font-size: 10px;
+          padding: 4px;
+        }
+
+        .table > table > thead > tr > th {
+          padding 5px;
+        }
+        .table > table > tbody > tr > td {
+          padding: 5px;
+        }
+      }
     `}</style>
   </>
 );

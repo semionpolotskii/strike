@@ -23,6 +23,11 @@ const Chronologic = ({ children }) => (
         justify-content: space-around;
         padding: 24px;
       }
+      @media (max-width: 768px) {
+        .wrapper {
+          flex-direction: column;
+        }
+      }
     `}</style>
   </>
 );
