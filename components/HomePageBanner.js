@@ -67,6 +67,11 @@ const HomePageBanner = () => (
         line-height: initial; 
         padding: 0 10px;
       }
+      @media (max-width: 768px) {
+        .heading h1 {
+          margin-top: 50px;
+        }
+      }
     `}</style>
   </>
 );
