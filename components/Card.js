@@ -41,6 +41,11 @@ const Card = ({ title, children }) => (
         align-items: center;
         justify-content: center;
       }
+      @media (max-width: 768px) {
+        .card {
+          width: 100%;
+        }
+      }
     `}</style>
   </>
 );

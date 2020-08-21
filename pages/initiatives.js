@@ -527,6 +527,10 @@ const Initiatives = () => {
           .wrapper {
             width: 100%;
           }
+
+          .title {
+            width: 100%;
+          }
         }
       `}</style>
     </>
