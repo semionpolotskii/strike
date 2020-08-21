@@ -43,8 +43,8 @@ const Home = () => (
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        filter: blur(1px);
-        -webkit-filter: blur(1px);
+        // filter: blur(1px);
+        // -webkit-filter: blur(1px);
       }
       a {
         color: pink;
@@ -54,6 +54,7 @@ const Home = () => (
       .content {
         padding: 0 32px;
       }
+
 
 
       @supports (-webkit-touch-callout: none) {
