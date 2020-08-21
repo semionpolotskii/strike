@@ -3,7 +3,7 @@ import BlockTitle from "./BlockTitle";
 
 const Chronologic = ({ children }) => (
   <>
-    <BlockTitle id="chronologic">Хронология забастовок</BlockTitle>
+    <BlockTitle id="chronologic">Как развивались события</BlockTitle>
     <div>
       <div className="wrapper">{children}</div>
     </div>

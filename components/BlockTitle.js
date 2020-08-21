@@ -7,7 +7,7 @@ const BlockTitle = ({ withContact, children, ...props }) => (
     </h1>
     {withContact && (
       <h3 className="subtitle">
-        Если у вас есть дополнения, исправления, желание помочь:{" "}
+        Информация собрана из открытых источников. Если у вас есть дополнения, исправления, желание помочь:{" "}
         <a href="https://t.me/strikebyy_bot" target="_blank">
           напишите нам
         </a>
@@ -45,6 +45,10 @@ const BlockTitle = ({ withContact, children, ...props }) => (
       @media (max-width: 768px) {
         .title {
           font-size: 25px;
+        }
+
+        .subtitle {
+          font-size: 12px;
         }
       }
     `}</style>

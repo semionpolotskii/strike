@@ -18,10 +18,8 @@ const Home = () => (
       </div>
       <StrikesInfoCards />
       <Chronologic>
-        <ChronologicCard title="БелАЗ" href="/belaz" />
-        <ChronologicCard title="БелАЗ" href="/belaz" />
-        <ChronologicCard title="БелАЗ" href="/belaz" />
-        <ChronologicCard title="БелАЗ" href="/belaz" />
+        <ChronologicCard title="БелАЗ" href="/belaz" imgHref="https://dh.img.tyt.by/720x720s/n/finansy/06/8/belaz2.jpg"/>
+        <ChronologicCard title="Тэатр Янкi Купалы" href="/kupala_theater" imgHref="https://tutby.gcdn.co/720x720s/n/buryakina/09/f/kupalauski_20200818_bur_009_photo_2020-08-18_11-40-40.jpg" />
       </Chronologic>
       {/* <CompanyLinksList /> */}
       <StrikesTable />

@@ -18,8 +18,15 @@ const Home = () => {
     <>
       <PageTemplate>
         <div className="wrapper">
-          {/* <h1>{title}</h1> */}
-          <CompanyHeader />
+          <CompanyHeader
+            links={[
+              { title: "Сайт", address: "http://belaz.by/" },
+              { title: "Википедия", address: "https://bit.ly/2FH0FFj" },
+              { title: "Телеграм-чат", address: "https://t.me/BelAZ_chat" },
+            ]}
+          >
+            БелАЗ
+          </CompanyHeader>
           <ContentCard date="18 августа, вторник">
             <Text>
               Пишут рабочие БелАЗа из Жодино: “До 8:00 задача всем

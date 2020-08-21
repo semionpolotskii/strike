@@ -1,29 +1,20 @@
 import React from "react";
 
-const CompanyLinksList = () => (
+const CompanyLinksList = ({ children, links }) => (
   <>
     <div className="wrapper">
       <h1 className="title">
-        <span className="white-on-red">БелАЗ</span>
+        <span className="white-on-red">{children}</span>
       </h1>
 
       <ul className="links-block">
-        <li>
-          <a className="link" href="http://belaz.by/" target="_blank">
-            Сайт
+        {links && links.map(link => (
+          <li>
+          <a className="link" href={link.address} target="_blank">
+            {link.title}
           </a>
         </li>
-
-        <li>
-          <a className="link" href="https://bit.ly/2FH0FFj" target="_blank">
-            Википедия
-          </a>
-        </li>
-        <li>
-          <a className="link" href="https://t.me/BelAZ_chat" target="_blank">
-            Телеграм-чат
-          </a>
-        </li>
+        ))}
       </ul>
     </div>
     <style jsx>{`

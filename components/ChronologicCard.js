@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-const ChronologicCard = ({ title, href }) => (
+const ChronologicCard = ({ title, href, imgHref }) => (
   <>
     <div className="card">
       <Link href={href}>
@@ -25,14 +25,14 @@ const ChronologicCard = ({ title, href }) => (
         position: relative;
         background: #fff;
         border-radius: 2px;
-        width: 24%;
+        width: 45%;
         height: 300px;
 
         background-image: linear-gradient(
             rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.5)
           ),
-          url("https://dh.img.tyt.by/720x720s/n/finansy/06/8/belaz2.jpg");
+          url("${imgHref}");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -49,7 +49,7 @@ const ChronologicCard = ({ title, href }) => (
             rgba(0, 0, 0, 0.3),
             rgba(0, 0, 0, 0.3)
           ),
-          url("https://dh.img.tyt.by/720x720s/n/finansy/06/8/belaz2.jpg");
+          url("${imgHref}");
       }
 
       .card a:any-link {
