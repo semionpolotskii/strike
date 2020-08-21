@@ -3,8 +3,8 @@ import React from "react";
 const YouTubeWidget = ({ src }) => {
   return (
     <iframe
-      width="640px"
-      height="480px"
+      width="100%"
+      height="auto"
       src={src}
       frameborder="0"
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"

@@ -3,9 +3,9 @@ import React from "react";
 const CompanyLinksList = () => (
   <>
     <div className="wrapper">
-      <div className="company-logo">
-        <img src="http://belaz.by/local/templates/main/img/Chef.jpg" />
-      </div>
+      <h1 className="title">
+        <span className="white-on-red">БелАЗ</span>
+      </h1>
 
       <ul className="links-block">
         <li>
@@ -15,24 +15,15 @@ const CompanyLinksList = () => (
         </li>
 
         <li>
-          <a
-            className="link"
-            href="https://bit.ly/2FH0FFj"
-            target="_blank"
-          >
+          <a className="link" href="https://bit.ly/2FH0FFj" target="_blank">
             Википедия
           </a>
         </li>
         <li>
-          <a
-            className="link"
-            href="https://t.me/BelAZ_chat"
-            target="_blank"
-          >
+          <a className="link" href="https://t.me/BelAZ_chat" target="_blank">
             Телеграм-чат
           </a>
         </li>
-        
       </ul>
     </div>
     <style jsx>{`
@@ -41,12 +32,22 @@ const CompanyLinksList = () => (
         box-sizing: border-box;
         flex-direction: column;
         width: 700px;
-        padding: 0 32px;
+        padding: 0 12px;
         background: #fff;
         background: #fff;
         border-radius: 2px;
         border: 1px solid #f0f0f0;
         align-items: center;
+      }
+
+      .title {
+        text-align: center;
+        font-size: 45px;
+      }
+      .white-on-red {
+        background-color: #ff4d4f;
+        color: #fff;
+        padding: 0 12px;
       }
 
       .company-logo {
@@ -66,7 +67,7 @@ const CompanyLinksList = () => (
         padding: 0;
         list-style-type: none;
         justify-content: center;
-        padding: 0 100px;
+        padding: 0 10px;
       }
 
       .links-block li:not(:first-child):before {
@@ -92,6 +93,12 @@ const CompanyLinksList = () => (
       .company-name {
         font-size: 2em;
         font-weight: bold;
+      }
+
+      @media (max-width: 768px) {
+        .wrapper{
+          width: 100%;
+        }
       }
     `}</style>
   </>
