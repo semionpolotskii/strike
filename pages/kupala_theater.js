@@ -10,9 +10,6 @@ import Text from "../components/Text";
 import CompanyHeader from "../components/CompanyHeader";
 import PageTemplate from "../components/PageTemplate";
 
-const statuses = ["need_help", "active", "stopped"];
-const title = "БелАЗ";
-
 const Home = () => {
   return (
     <>
@@ -21,7 +18,7 @@ const Home = () => {
           <CompanyHeader
             links={[
               { title: "Сайт", address: "https://kupalauski.by/" },
-              { title: "Википедия", address: "https://bit.ly/2FH0FFj" },
+              { title: "Википедия", address: "https://bit.ly/2Ypt5Ki" },
             ]}
           >
             Тэатр Янкi Купалы

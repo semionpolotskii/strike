@@ -25,7 +25,7 @@ const ChronologicCard = ({ title, href, imgHref }) => (
         position: relative;
         background: #fff;
         border-radius: 2px;
-        width: 45%;
+        width: 33%;
         height: 300px;
 
         background-image: linear-gradient(

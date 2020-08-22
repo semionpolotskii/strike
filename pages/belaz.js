@@ -10,9 +10,6 @@ import Text from "../components/Text";
 import CompanyHeader from "../components/CompanyHeader";
 import PageTemplate from "../components/PageTemplate";
 
-const statuses = ["need_help", "active", "stopped"];
-const title = "БелАЗ";
-
 const Home = () => {
   return (
     <>

@@ -1,10 +1,16 @@
 import React from "react";
 
-const BlockTitle = ({ withContact, children, ...props }) => (
+const BlockTitle = ({ withContact, subTitle, children, ...props }) => (
   <>
     <h1 className="title" {...props}>
       <span className="white-on-red">{children}</span>
+      
     </h1>
+    {subTitle && (
+      <h3 className="subtitle">
+        {subTitle}
+      </h3>
+    )}
     {withContact && (
       <h3 className="subtitle">
         Информация собрана из открытых источников. Если у вас есть дополнения, исправления, желание помочь:{" "}
