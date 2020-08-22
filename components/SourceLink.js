@@ -5,7 +5,7 @@ const SourceLink = ({ href, children }) => (
   <>
     <sup>
       <a className="source-link" href={href} target="_blank">
-        {children || 'источник'}
+        {children || 'читать полностью'}
       </a>
     </sup>
     <style jsx>{`
