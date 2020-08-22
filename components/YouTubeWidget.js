@@ -6,9 +6,9 @@ const YouTubeWidget = ({ src }) => {
     <iframe
       className="yt-widget"
       src={src}
-      frameborder="0"
+      frameBorder="0"
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
+      allowFullScreen
       style={{ margin: '12px 0'}}
     ></iframe>
     <style jsx>{`

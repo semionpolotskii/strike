@@ -8,13 +8,14 @@ const CompanyLinksList = ({ children, links }) => (
       </h1>
 
       <ul className="links-block">
-        {links && links.map(link => (
-          <li>
-          <a className="link" href={link.address} target="_blank">
-            {link.title}
-          </a>
-        </li>
-        ))}
+        {links &&
+          links.map((link) => (
+            <li key={link.address}>
+              <a className="link" href={link.address} target="_blank">
+                {link.title}
+              </a>
+            </li>
+          ))}
       </ul>
     </div>
     <style jsx>{`
@@ -87,7 +88,7 @@ const CompanyLinksList = ({ children, links }) => (
       }
 
       @media (max-width: 768px) {
-        .wrapper{
+        .wrapper {
           width: 100%;
         }
       }

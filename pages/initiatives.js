@@ -21,7 +21,7 @@ const Initiatives = () => {
         src="https://www.instagram.com/p/CEB9e9cnKyS/embed"
         width="400"
         height="720"
-        frameborder="0"
+        frameBorder="0"
         scrolling="no"
         allowtransparency="true"
       ></iframe> */}
