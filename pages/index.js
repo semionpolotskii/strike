@@ -21,7 +21,7 @@ const Home = () => (
         <ChronologicCard
           title="БелАЗ"
           href="/belaz"
-          imgHref="https://dh.img.tyt.by/720x720s/n/finansy/06/8/belaz2.jpg"
+          imgHref="https://ave86sqw5b.cdn.agency/files/2020/08/Untitled-3.jpg"
         />
         <ChronologicCard
           title="Тэатр Янкi Купалы"
@@ -31,7 +31,12 @@ const Home = () => (
         <ChronologicCard
           title="МТЗ"
           href="/mtz"
-          imgHref="https://dh.img.tyt.by/720x720s/n/shukaylo/06/e/mtz_dom_pravitelstva_akciya_solidarnosti_20200814_shuk_tutby_phsl_4661.jpg"
+          imgHref="https://dh.img.tyt.by/n/shukaylo/01/1/dom_pravitelstva_akciya_solidarnosti_20200814_shuk_tutby_phsl_5002.jpg"
+        />
+        <ChronologicCard
+          title="Беларуськалий"
+          href="/kali"
+          imgHref="https://tutby.gcdn.co/720x720s/n/brushko/04/6/belaruskaliy_zabastovka_17082020_tutby_brush_phsl-1006.jpg"
         />
       </Chronologic>
       {/* <CompanyLinksList /> */}
