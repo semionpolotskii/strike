@@ -43,21 +43,6 @@ const PageTemplate = ({ children }) => (
         property="twitter:image"
         content="https://i.imgur.com/EZ1kYDb.png"
       />
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `
-            <!-- Global site tag (gtag.js) - Google Analytics -->
-            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176099442-1"></script>
-            <script>
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-            
-              gtag('config', 'UA-176099442-1');
-            </script>
-          `,
-        }}
-      />
     </Head>
     <Header />
     {children}
