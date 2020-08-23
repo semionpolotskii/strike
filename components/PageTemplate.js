@@ -43,6 +43,21 @@ const PageTemplate = ({ children }) => (
     </Head>
     <Header />
     {children}
+    <div className="footer">Сайт разработан овцами, наркоманами, проститутками и алкоголиками, при поддержке народца, 2020</div>
+    <style jsx>{`
+      .footer {
+        width: 100%;
+        padding: 24px;
+        text-align: center;
+        color: #0000008f;
+        font-size: 12px;
+      }
+      @media (max-width: 768px) {
+        .footer {
+          font-size: 10px;
+        }
+      }
+    `}</style>
   </>
 );
 
