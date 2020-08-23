@@ -1,5 +1,6 @@
 import React from "react";
 import BlockTitle from "./BlockTitle";
+import Link from "next/link";
 
 const StrikesTable = () => (
   <>
@@ -126,7 +127,13 @@ const StrikesTable = () => (
           </tr>
           <tr>
             <td>Беларуськалий</td>
+
             <td>
+              <Link href="/kali">
+                <a>Полная история событий</a>
+              </Link>
+              <br />
+              <br />
               Первая информация о планируемой забастовке появилась 14 августа. В
               этот день рабочие стояли в цепочку солидарности с лозунгами "Жыве
               Беларусь". Продолжают участвовать в таких акцихя. Прошли собрания,
@@ -266,7 +273,11 @@ const StrikesTable = () => (
           </tr>
           <tr>
             <td>БелАЗ</td>
-            <td>Информация собирается!</td>
+            <td>
+              <Link href="/belaz">
+                <a>Полная история событий</a>
+              </Link>
+            </td>
             <td></td>
             <td></td>
           </tr>
@@ -345,22 +356,7 @@ const StrikesTable = () => (
               завода, запретили перемещение по территории. Они собирались начать
               акции солидарности. Но от них требуют разные согласования,
               разрешения и прочую бюрократию. Пугают увольнениями, все цеха
-              позакрывали. Один из рабочих бросил на бегу <br />
-              <a
-                href="http://tut.by/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                tut.by
-              </a>
-              <br />
-              <a
-                href="http://tut.by/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {" "}
-              </a>
+              позакрывали. Один из рабочих бросил на бегу tut.by: <br/>
               "Я лично очень хочу перемен, но бастовать не пойду. И все так у
               нас". Уволили одного электромонтера, который якобы призывал к
               забастовке.
@@ -617,7 +613,11 @@ const StrikesTable = () => (
           </tr>
           <tr>
             <td>МТЗ</td>
-            <td>Информация собирается!</td>
+            <td>
+              <Link href="/mtz">
+                <a>Полная история событий</a>
+              </Link>
+            </td>
             <td></td>
             <td></td>
           </tr>
@@ -876,7 +876,11 @@ const StrikesTable = () => (
           </tr>
           <tr>
             <td>Театр Янки Купалы</td>
-            <td>Информация собирается!</td>
+            <td>
+              <Link href="/kupala_theater">
+                <a>Полная история событий</a>
+              </Link>
+            </td>
             <td></td>
             <td></td>
           </tr>
@@ -930,6 +934,7 @@ const StrikesTable = () => (
         width: 100%;
         overflow: auto;
       }
+      
       .table > table {
         width: 100%;
         text-align: left;
@@ -963,6 +968,14 @@ const StrikesTable = () => (
 
       .table > table > tbody > tr:hover > td {
         background: #fafafa;
+      }
+
+      .table a {
+        color: #ff4d4f;
+      }
+
+      .table a:hover {
+        color: #801a1b;
       }
       @media (max-width: 768px) {
         .table {

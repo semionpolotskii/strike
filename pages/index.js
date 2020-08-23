@@ -19,16 +19,6 @@ const Home = () => (
       <StrikesInfoCards />
       <Chronologic>
         <ChronologicCard
-          title="БелАЗ"
-          href="/belaz"
-          imgHref="https://ave86sqw5b.cdn.agency/files/2020/08/Untitled-3.jpg"
-        />
-        <ChronologicCard
-          title="Тэатр Янкi Купалы"
-          href="/kupala_theater"
-          imgHref="https://tutby.gcdn.co/720x720s/n/buryakina/09/f/kupalauski_20200818_bur_009_photo_2020-08-18_11-40-40.jpg"
-        />
-        <ChronologicCard
           title="МТЗ"
           href="/mtz"
           imgHref="https://dh.img.tyt.by/n/shukaylo/01/1/dom_pravitelstva_akciya_solidarnosti_20200814_shuk_tutby_phsl_5002.jpg"
@@ -37,6 +27,16 @@ const Home = () => (
           title="Беларуськалий"
           href="/kali"
           imgHref="https://tutby.gcdn.co/720x720s/n/brushko/04/6/belaruskaliy_zabastovka_17082020_tutby_brush_phsl-1006.jpg"
+        />
+        <ChronologicCard
+          title="Тэатр Янкi Купалы"
+          href="/kupala_theater"
+          imgHref="https://tutby.gcdn.co/720x720s/n/buryakina/09/f/kupalauski_20200818_bur_009_photo_2020-08-18_11-40-40.jpg"
+        />
+        <ChronologicCard
+          title="БелАЗ"
+          href="/belaz"
+          imgHref="https://ave86sqw5b.cdn.agency/files/2020/08/Untitled-3.jpg"
         />
       </Chronologic>
       {/* <CompanyLinksList /> */}
