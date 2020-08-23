@@ -19,6 +19,7 @@ const Home = () => {
             links={[
               { title: "Сайт", address: "http://www.belarus-tractor.com/" },
               { title: "Википедия", address: "https://bit.ly/2EuU3t2" },
+              { title: "Телеграм-чат", address: "https://t.me/MTZ_chat" },
             ]}
           >
             МТЗ

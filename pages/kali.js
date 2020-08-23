@@ -19,6 +19,7 @@ const Home = () => {
             links={[
               { title: "Сайт", address: "https://kali.by/" },
               { title: "Википедия", address: "https://bit.ly/34quBzO" },
+              { title: "Телеграм-чат", address: "https://t.me/Belkaliy" },
             ]}
           >
             Беларуськалий

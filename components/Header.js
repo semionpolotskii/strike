@@ -17,15 +17,22 @@ const Img = ({ src, ...props }) => (
             </a>
           </li>
           <li>
-            <Link href="/initiatives">
-              <a className="menu-link">
-                Инициативы и фонды
-              </a>
+            <Link href="/chats">
+              <a className="menu-link">Забастовочные чаты</a>
             </Link>
           </li>
           <li>
-            <a className="menu-link" href="https://t.me/strikebyy_bot" target="_blank">
-              Написать нам 
+            <Link href="/initiatives">
+              <a className="menu-link">Инициативы и фонды</a>
+            </Link>
+          </li>
+          <li>
+            <a
+              className="menu-link"
+              href="https://t.me/strikebyy_bot"
+              target="_blank"
+            >
+              Написать нам
             </a>
           </li>
         </ul>
@@ -100,6 +107,9 @@ const Img = ({ src, ...props }) => (
           padding: 0 0 5px 0;
           margin: 0;
           text-align: center;
+        }
+        .main-menu {
+          flex-direction: column;
         }
         .menu-link {
           padding: 10px;
