@@ -39,11 +39,32 @@ const PageTemplate = ({ children }) => (
         property="twitter:description"
         content="Информация об участниках акций забастовок в Республике Беларусь. Фонды и инициативные группы для помощи, тем кто потерял работу по причине участия в забастовках"
       />
-      <meta property="twitter:image" content="https://i.imgur.com/EZ1kYDb.png" />
+      <meta
+        property="twitter:image"
+        content="https://i.imgur.com/EZ1kYDb.png"
+      />
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176099442-1"></script>
+            <script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+            
+              gtag('config', 'UA-176099442-1');
+            </script>
+          `,
+        }}
+      />
     </Head>
     <Header />
     {children}
-    <div className="footer">Сайт разработан овцами, наркоманами, проститутками и алкоголиками, при поддержке народца, 2020</div>
+    <div className="footer">
+      Сайт разработан овцами, наркоманами, проститутками и алкоголиками, при
+      поддержке народца, 2020
+    </div>
     <style jsx>{`
       .footer {
         width: 100%;
