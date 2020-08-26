@@ -43,6 +43,7 @@ const PageTemplate = ({ children }) => (
         property="twitter:image"
         content="https://i.imgur.com/EZ1kYDb.png"
       />
+      <meta name="google-site-verification" content="YxdDQqwNjHLpMNH2PH2YGMtB0jxT5l7uONNrQ1UbUOY" />
     </Head>
     <Header />
     {children}
