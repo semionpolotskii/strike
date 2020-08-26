@@ -21,7 +21,7 @@ const Home = () => (
         <ChronologicCard
           title="МТЗ"
           href="/mtz"
-          imgHref="https://dh.img.tyt.by/n/shukaylo/01/1/dom_pravitelstva_akciya_solidarnosti_20200814_shuk_tutby_phsl_5002.jpg"
+          imgHref="https://i.imgur.com/Z3qM8XR.jpg"
         />
         <ChronologicCard
           title="Беларуськалий"
