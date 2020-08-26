@@ -31,6 +31,11 @@ const Home = () => {
             <Text time=""></Text> 
           </ContentCard> */}
 
+          <ContentCard date="26 августа, четверг">
+            <Text>
+              <strong>Tut.by</strong>: Из Купаловского театра уволены 58 актеров и сотрудников.
+            </Text>
+          </ContentCard>
           <ContentCard date="21 августа, четверг">
             <Text>
               Так теперь выглядят афиши Купаловского театра.
